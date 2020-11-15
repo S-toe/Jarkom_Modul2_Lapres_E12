@@ -30,7 +30,7 @@ Konfigurasi pada UML MALANG di file /etc/bind/jarkom/semerue12.pw seperti gambar
 
 ### Soal 4. Membuat reverse domain untuk domain utama.
 Konfigurasi pada UML MALANG di file /etc/bind/named.conf.local. sesuai dengan gambar di nomor 1.<br>
-Salin file /etc/bind/db.local ke /etc/bind/jarkom/77.151.10.in-addr.arpa dan konfigurasi file tersebut sesuai gambar di bawah. <br>
+Salin file /etc/bind/db.local ke /etc/bind/jarkom/71.151.10.in-addr.arpa dan konfigurasi file tersebut sesuai gambar di bawah. <br>
 ![image](https://user-images.githubusercontent.com/58405725/99186893-fd601c00-2785-11eb-9d5d-b2f37d981166.png)
 <br>
 Lalu pindah ke UML Client dan konfigurasi file `/etc/resolv.conf`. Pada file tersebut uncomment nameserver dua atas dan comment yg IP Malang. <br>
@@ -133,7 +133,7 @@ Konfigurasi pada UML PROBOLINGGO :
 Berikut ini konfigurasinya : <br>
 ![image](https://user-images.githubusercontent.com/58405725/99187214-d86ca880-2787-11eb-9970-917b6646b51c.png)
  <br>
-Dan ini merupakan hasil yang diminta : <br>
+Dan ini merupakan hasil yang diminta :
 ![image](https://user-images.githubusercontent.com/58405725/99187242-fa662b00-2787-11eb-9c98-2dcfddf0d387.png)
  <br>
 
@@ -167,7 +167,7 @@ Langkah menyelesaikan soal 10 :
 ![image](https://user-images.githubusercontent.com/58405725/99187325-a1e35d80-2788-11eb-8929-32ea60d837a7.png)
  <br>
 * Restart apache. <br>
-* kemudian buka, maka hasilnya. <br>
+* kemudian buka, maka hasilnya.
 ![image](https://user-images.githubusercontent.com/58405725/99187357-cb9c8480-2788-11eb-9e6d-a702f441a358.png)
  <br>
  Hasil yang sama akan berlaku pada folder lainnya di dalam public.
@@ -177,7 +177,7 @@ Berikut ini merupakan langkah penyelesaian :
 * Setting di .htaccess seperti dibawah <br>
 ![image](https://user-images.githubusercontent.com/58405725/99187419-1a4a1e80-2789-11eb-8d01-0aef3a6bd341.png)
  <br>
-* Untuk mengetes, buka alamat asal. <br>
+* Untuk mengetes, buka alamat asal.
 ![image](https://user-images.githubusercontent.com/58405725/99187434-3057df00-2789-11eb-991e-f6bb1059be04.png)
  <br>
 
@@ -190,11 +190,11 @@ Berikut ini merupakan langkah penyelesaian :
 * Salin config seperti tadi, tapi portnya ganti 8888 <br>
 ![image](https://user-images.githubusercontent.com/58405725/99187492-862c8700-2789-11eb-9224-2415fc7c1142.png)
  <br>
-* Setting port agar listen ke 8888 <br>
+* Setting port agar listen ke 8888
 ![image](https://user-images.githubusercontent.com/58405725/99187507-98a6c080-2789-11eb-98e0-9827f0030fc0.png)
 ) <br>
 * Download, unzip ke /var/www <br>
-* A2ensite, restart apache, buka <br>
+* A2ensite, restart apache, buka
 ![image](https://user-images.githubusercontent.com/58405725/99187519-aceabd80-2789-11eb-872a-3967d2d8ad1a.png)
 
 
@@ -205,7 +205,7 @@ Berikut ini merupakan langkah penyelesaian :
 * Edit config seperti ini <br>
 ![image](https://user-images.githubusercontent.com/58405725/99187541-ce4ba980-2789-11eb-8d83-1094cb46aa9e.png)
 <br>
-* Hasilnya akan seperti ini <br>
+* Hasilnya akan seperti ini
 ![image](https://user-images.githubusercontent.com/58405725/99187563-e4f20080-2789-11eb-803d-635fb92ddb48.png)
 <br>
 
